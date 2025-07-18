@@ -6,4 +6,4 @@ class TestApp(unittest.Testcase):
         self.assertEqual(hello(), "Hello, Jenkins!")
 
 if __name__ == "__main__":
-     unittest(main):
+    unittest.main()

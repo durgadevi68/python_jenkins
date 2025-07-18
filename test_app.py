@@ -1,7 +1,7 @@
 import unittest
 from app import hello
 
-class TestApp(unittest.Testcase):
+class TestApp(unittest.TestCase):  # Corrected here
     def test_hello(self):
         self.assertEqual(hello(), "Hello, Jenkins!")
 
